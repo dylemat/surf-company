@@ -125,7 +125,7 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .left img:hover {
-  filter: grayscale(5);
+  opacity: 1;
 }
 
 .right {
@@ -162,12 +162,12 @@ font-family: 'Open Sans', sans-serif;
   max-width: 100%;
   height: auto;
   /*   display: flex; */
-
+opacity: .5;
   order: 0;
 }
 
 .right-2 img:hover {
-  filter: grayscale(5);
+  opacity:1;
 }
 
 .left-2 h2 {
